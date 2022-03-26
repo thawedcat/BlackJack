@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet'
+}
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/00/93/36/49/360_F_93364974_eoos8QGsa9CzTa5hGRRL6EutXMSKgdOA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+
+}
+#the-title{
+    text-align: center;
+    font-weight: bolder;
+    color:goldenrod
+}
+#message-el{
+    font-style: italic;
+    
+}
+#startgame{
+    color:#092e1a;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    margin:10px;
+    padding:10px;
+    border-style: gold groove;
+    border-radius: 10px;
+    background: goldenrod;
+    transition:all 0.9s;
+}
+#newcard{
+    color:#092e1a;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    margin:10px;
+    padding:10px;
+    border-style: gold groove;
+    border-radius: 10px;
+    background: goldenrod;
+    transition:all 0.9s;
+
+}
+#startgame:hover{
+    transform: translateY(10px);
+    
+}
+#newcard:hover{
+    transform: translateY(10px);
+}
+@media screen and (min-width: 576px){
+    body {
+        font-size: 2em;
+    }
+    
+}
